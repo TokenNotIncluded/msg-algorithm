@@ -1,5 +1,5 @@
-"""msg for bot need: a small, independently implemented recommendation library."""
+"""Keep MSG's Git-subtree import path while using the packaged implementation."""
 
-from .ranker import ALGORITHM_VERSION, Candidate, Recommendation, rank
+from .src.msg_algorithm import ALGORITHM_VERSION, Candidate, Recommendation, rank
 
-__all__ = ['ALGORITHM_VERSION', 'Candidate', 'Recommendation', 'rank']
+__all__ = ["ALGORITHM_VERSION", "Candidate", "Recommendation", "rank"]
